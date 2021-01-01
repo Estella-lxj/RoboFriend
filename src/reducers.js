@@ -5,18 +5,6 @@ import {
 	CHANGE_SEARCHFIELD,
 } from './constants.js'
 
-// const initialStateSearch = {
-// 	searchField: '',
-// }
-
-// export const searchRobots = (state = initialStateSearch, action = {}) => {
-// 	switch (action.type) {
-// 		case REQUEST_ROBOTS_FAILED:
-// 			return Object.assign({}, state, { searchField: action.payload });
-// 		default:
-// 			return initialStateRobots.searchField;
-// 	}
-// }
 
 export const searchRobots = (state = "", action = {}) => {
 	switch (action.type) {
